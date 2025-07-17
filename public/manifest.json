@@ -1,0 +1,73 @@
+{
+    "name": "Calculadora Reforma Tributária v3.0",
+    "short_name": "Reforma Tributária",
+    "description": "Calculadora profissional da Reforma Tributária brasileira com SPED Real e IA personalizada",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#3498db",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "categories": ["business", "finance", "productivity"],
+    "lang": "pt-BR",
+    "dir": "ltr",
+    "icons": [
+      {
+        "src": "/icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/favicon.ico",
+        "sizes": "48x48",
+        "type": "image/x-icon"
+      }
+    ],
+    "shortcuts": [
+      {
+        "name": "Calculadora Completa",
+        "description": "Acessar calculadora completa com SPED",
+        "url": "/calculadora",
+        "icons": [
+          {
+            "src": "/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+          }
+        ]
+      },
+      {
+        "name": "Simuladores",
+        "description": "Simuladores rápidos",
+        "url": "/simuladores",
+        "icons": [
+          {
+            "src": "/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+          }
+        ]
+      }
+    ],
+    "screenshots": [
+      {
+        "src": "/screenshot-desktop.png",
+        "sizes": "1280x720",
+        "type": "image/png",
+        "form_factor": "wide"
+      },
+      {
+        "src": "/screenshot-mobile.png",
+        "sizes": "390x844",
+        "type": "image/png",
+        "form_factor": "narrow"
+      }
+    ]
+  }
