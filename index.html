@@ -3,187 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora Reforma Tributária v3.0 | SPED Real + IA</title>
+  <meta name="description" content="Calcule o impacto da Reforma Tributária com upload de arquivos SPED reais, benefícios específicos por NCM e IA personalizada." />
   
-  <!-- SEO Meta Tags -->
-  <title>Calculadora Reforma Tributária v3.0 | SPED Real + IA Personalizada</title>
-  <meta name="description" content="Calcule o impacto da Reforma Tributária com upload de arquivos SPED reais, benefícios específicos por NCM/código LC 116/03 e IA personalizada. Análise profissional para Simples Nacional, Lucro Real e Lucro Presumido." />
-  <meta name="keywords" content="reforma tributária, calculadora, SPED, NCM, IBS, CBS, split payment, simples nacional, lucro real, lucro presumido, benefícios específicos, cesta básica, medicamentos" />
-  <meta name="author" content="Silvio Gonçalves - Especialista em Controladoria" />
-  <meta name="robots" content="index, follow" />
-  <meta name="language" content="pt-BR" />
-  
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Calculadora Reforma Tributária v3.0 | SPED Real + IA" />
-  <meta property="og:description" content="A ferramenta mais completa para análise da Reforma Tributária brasileira. Upload de SPED real, benefícios específicos por NCM e IA personalizada." />
-  <meta property="og:image" content="/og-image.jpg" />
-  <meta property="og:url" content="https://calculadora-reforma-tributaria.vercel.app" />
-  <meta property="og:site_name" content="Calculadora Reforma Tributária" />
-  <meta property="og:locale" content="pt_BR" />
-  
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Calculadora Reforma Tributária v3.0" />
-  <meta name="twitter:description" content="SPED Real + Benefícios Específicos + IA Personalizada" />
-  <meta name="twitter:image" content="/twitter-card.jpg" />
-  <meta name="twitter:creator" content="@silviogoncalves0" />
-  
-  <!-- Favicons -->
+  <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="manifest" href="/manifest.json" />
-  
-  <!-- Theme Color -->
-  <meta name="theme-color" content="#3498db" />
-  <meta name="msapplication-TileColor" content="#3498db" />
-  
-  <!-- Preconnect to external domains -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
   
   <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  
-  <!-- Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "Calculadora Reforma Tributária v3.0",
-    "description": "Calculadora profissional da Reforma Tributária brasileira com upload de arquivos SPED reais e IA personalizada",
-    "url": "https://calculadora-reforma-tributaria.vercel.app",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web",
-    "browserRequirements": "Requires JavaScript",
-    "author": {
-      "@type": "Person",
-      "name": "Silvio Gonçalves",
-      "jobTitle": "Especialista em Controladoria",
-      "email": "consultor.ia.lendario@gmail.com",
-      "sameAs": [
-        "https://linkedin.com/in/silvio-gonçalves-980b5b229",
-        "https://instagram.com/silviogoncalves0"
-      ]
-    },
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "BRL"
-    },
-    "featureList": [
-      "Upload de arquivos SPED reais",
-      "Benefícios específicos por NCM",
-      "IA personalizada por empresa",
-      "Relatórios executivos HTML + Excel",
-      "Análise detalhada Split Payment",
-      "Validação automática de dados"
-    ]
-  }
-  </script>
-  
-  <!-- Analytics -->
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'GA_MEASUREMENT_ID');
-  </script>
-  
-  <!-- Security Headers -->
-  <meta http-equiv="X-Content-Type-Options" content="nosniff">
-  <meta http-equiv="X-Frame-Options" content="DENY">
-  <meta http-equiv="X-XSS-Protection" content="1; mode=block">
-  
-  <!-- Performance Hints -->
-  <link rel="dns-prefetch" href="//fonts.googleapis.com">
-  <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
-  
-  <!-- PWA Meta Tags -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="apple-mobile-web-app-title" content="Reforma Tributária">
-  
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://calculadora-reforma-tributaria.vercel.app" />
 </head>
 <body>
   <noscript>
-    <div style="
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: #1e293b;
-      color: white;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      text-align: center;
-      z-index: 9999;
-      font-family: system-ui, sans-serif;
-      padding: 20px;
-    ">
-      <h1 style="font-size: 2rem; margin-bottom: 1rem;">🧮 Calculadora Reforma Tributária v3.0</h1>
-      <p style="font-size: 1.2rem; margin-bottom: 2rem; max-width: 600px;">
-        Para usar esta aplicação, você precisa habilitar o JavaScript no seu navegador.
-      </p>
-      <div style="background: #dc2626; padding: 15px; border-radius: 8px; margin-bottom: 1rem;">
-        <strong>JavaScript Necessário</strong>
-      </div>
-      <p style="color: #cbd5e1; font-size: 0.9rem;">
-        Esta calculadora utiliza tecnologias modernas que requerem JavaScript para processar
-        arquivos SPED, calcular benefícios específicos e gerar relatórios interativos.
-      </p>
+    <div style="padding: 20px; text-align: center; font-family: Arial, sans-serif;">
+      <h1>🧮 Calculadora Reforma Tributária v3.0</h1>
+      <p>Para usar esta aplicação, você precisa habilitar o JavaScript no seu navegador.</p>
     </div>
   </noscript>
   
   <div id="root"></div>
-  
-  <!-- Loading Screen (replaced by React) -->
-  <style>
-    #root:empty::before {
-      content: '';
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: linear-gradient(135deg, #3498db 0%, #6f42c1 100%);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      z-index: 1000;
-    }
-    
-    #root:empty::after {
-      content: '🧮 Carregando Calculadora...';
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-      font-size: 1.5rem;
-      font-weight: 600;
-      font-family: 'Inter', system-ui, sans-serif;
-      z-index: 1001;
-      animation: pulse 2s infinite;
-    }
-    
-    @keyframes pulse {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.5; }
-    }
-  </style>
-  
-  <!-- Module Script -->
   <script type="module" src="/src/main.jsx"></script>
 </body>
 </html>
