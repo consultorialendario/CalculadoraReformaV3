@@ -11,26 +11,9 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist',
-    sourcemap: false,
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          react: ['react', 'react-dom'],
-          router: ['react-router-dom'],
-          icons: ['lucide-react'],
-          animation: ['framer-motion']
-        }
-      }
-    },
-    chunkSizeWarningLimit: 1000
+    emptyOutDir: true
   },
   server: {
-    port: 3000,
-    open: true,
-    host: true
-  },
-  preview: {
-    port: 4173,
-    open: true
+    port: 3000
   }
 })
